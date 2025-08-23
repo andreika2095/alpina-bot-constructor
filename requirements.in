@@ -1,2 +1,5 @@
-djangorestframework 
-openai 
+django>=3.2,<4.0
+djangorestframework
+openai
+python-telegram-bot
+python-dotenv

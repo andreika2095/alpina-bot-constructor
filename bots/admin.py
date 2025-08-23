@@ -1,4 +1,3 @@
-# bots/admin.py
 from django.contrib import admin
 from .models import Bot, Scenario, Step, UserSession
 
