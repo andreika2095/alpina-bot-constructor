@@ -8,5 +8,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["gunicorn", "alpina-bot-constructor.wsgi:application", "--bind", "0.0.0.0:8000"]
+CMD ["gunicorn", "bot_constructor.wsgi:application", "--bind", "0.0.0.0:8000"]
+
 
